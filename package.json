@@ -1,0 +1,23 @@
+{
+  "name": "real-facts",
+  "version": "1.0.0",
+  "description": "Real Facts by Snapple",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["fact", "facts", "snapple", "real-facts"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NiinaDev/real-facts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NiinaDev/real-facts/issues"
+  },
+  "author": "Nina#3643",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5"
+  }
+}
