@@ -19,7 +19,7 @@ module.exports = {
             if(randFact) {
                resolve(randFact);
             } else {
-               reject(errorObj);
+               reject('Something went wrong, Please try again!');
             }
         });
     }
