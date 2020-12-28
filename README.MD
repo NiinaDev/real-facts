@@ -1,10 +1,10 @@
 # real-facts
 
-Real Facts by Snapple
+Real Facts by [Snapple](https://www.snapple.com/real-facts)
 
-## Contribute
+## Source
 
-All facts are scraped from the official [Snapple](https://www.snapple.com/real-facts) website. For any questions, contact me on Discord at [Nina#3643](https://discord.com/users/568824243396149248)
+All facts are scraped from the official [Snapple](https://www.snapple.com/real-facts) website.
 
 ## Install
 
@@ -13,9 +13,10 @@ $ npm install real-facts
 ```
 
 ## Usage
+Check [test.js](./test.js) for an example
 
 ```js
-const { getFact() } = require("real-facts");
+const { getFact } = require("real-facts");
 
 let fact = await getFact()
 // fact = { value: '455', fact: 'Lobsters can live up to 50 years.' }
@@ -31,7 +32,7 @@ let fact = await getFact()
 ```
 
 ## Example
-The following example is very oversimplied but gives a rough idea on how to implement it in your bot 
+The following example is very oversimplied but gives a rough idea on how to implement it in your discord bot 
 
 ```js
 const { getFact } = require('real-facts');
